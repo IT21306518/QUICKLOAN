@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Quickloan</string>
+    <string name="apply">APPLY A</string>
+    <string name="quicke_loan">Quike Loan</string>
+    <string name="quick_loan">Quick Loan</string>
+    <string name="firstname">First Name</string>
+    <string name="next">NEXT</string>
 </resources>
