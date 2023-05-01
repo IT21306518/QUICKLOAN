@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginleft">10sp</dimen>
+    <dimen name="margin_left">Margin Left</dimen>
+    <dimen name="a_about_u">About_you</dimen>
+</resources>

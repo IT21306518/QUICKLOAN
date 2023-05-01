@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/apply_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="25dp"
+        android:background="#035FF4"
+        android:text="@string/quick_loan"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/apply_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="About you :"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/first_name_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="First Name :"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/first_name_c2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:hint="Enter your first name"
+            android:inputType="text"
+            android:autofillHints=""
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/middle_name_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Middle Name :"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/middle_name_d2"
+            android:layout_width="380dp"
+            android:layout_height="48sp"
+            android:hint="Enter your middle name"
+            android:inputType="text"
+            tools:ignore="HardcodedText"
+            android:autofillHints=""
+            android:height="48dp"/>
+
+        <TextView
+            android:id="@+id/last_name_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Last Name :"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/last_name_e2"
+            android:layout_width="380dp"
+            android:layout_height="48sp"
+            android:hint="Enter your last name"
+            android:inputType="text"
+            tools:ignore="HardcodedText"
+            android:autofillHints=""
+            android:height="48dp"/>
+
+        <TextView
+            android:id="@+id/nic_no_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="NIC NO :"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/nic_no_f2"
+            android:layout_width="380dp"
+            android:layout_height="48sp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="NIC No"
+            android:inputType="number|text"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/birth_date_g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Birth Date :"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/birth_date_g2"
+            android:layout_width="380dp"
+            android:layout_height="48sp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="DD/MM/YYYY"
+            android:inputType="datetime"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/email_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Email Address :"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/email_h2"
+            android:layout_width="380dp"
+            android:layout_height="48sp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/next_a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="20sp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+
+</LinearLayout>
