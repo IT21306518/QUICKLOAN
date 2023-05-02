@@ -276,7 +276,7 @@
                     android:paddingStart="8dp"
                     android:paddingTop="2dp"
                     android:paddingEnd="8dp"
-                    android:paddingBottum="2dp"
+                    android:paddingBottom="2dp"
                     android:text="@string/trending"
                     android:textColor="@color/colorAccent"
                     android:textSize="16sp"
