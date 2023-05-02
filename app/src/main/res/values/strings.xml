@@ -29,4 +29,27 @@
     <string name="nic">NIC No</string>
     <string name="birth_date">DD/MM/YYYY</string>
     <string name="email">Enter your email</string>
+
+<!--    buwa-->
+    <string name="quickLoan">QuickLoan</string>
+    <string name="hello">Hello</string>
+    <string name="name">Buwani</string>
+    <string name="sreach_elements">Sreach elements</string>
+    <string name="search_elements">Search Element</string>
+
+    <string name="apply_loan1">Apply loan</string>
+    <string name="apply_loan2">Apply Loan</string>
+    <string name="calculator">Calculator</string>
+    <string name="status">Tracking Loan</string>
+    <string name="repay">Loan Repayment</string>
+    <string name="repayment">Repayment</string>
+    <string name="trending">Trending</string>
+    <string name="dummy_text">Join with QuickLoan App to get loan quickly.</string>
+    <string name="home">Home</string>
+    <string name="account">Profile</string>
+    <string name="login">Login</string>
+    <string name="faq">FAQ</string>
+    <string name="privacy">Privacy and Policy </string>
+    <string name="setting">Setting</string>
+    <string name="monthly_payment_result">Monthly Payment</string>
 </resources>
