@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="annual_interest_rate_edit_text" type="id">Interest Rate</item>
+    <item name="loan_period_edit_text" type="id">Loan Period</item>
+    <item name="result_text_view" type="id">Result</item>
+    <item name="loan_amount_edit_text" type="id">Loan Amount</item>
+    <item name="calculate_button" type="id">Calculate</item>
+    <item name="loan_amount_text_view" type="id">Loan Amount</item>
+    <item name="monthly_payment_result_text_view" type="id">Monthly Payment</item>
+    <item name="interest_rate_text_view" type="id">Interest Rate</item>
+    <item name="interest_rate_edit_text" type="id">Interest Rate</item>
+    <item name="loan_term_text_view" type="id">Loan Term</item>
+    <item name="loan_term_edit_text" type="id">Loan Term</item>
+</resources>
