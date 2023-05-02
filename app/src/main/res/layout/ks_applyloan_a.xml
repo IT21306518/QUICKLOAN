@@ -28,10 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5sp"
-            android:text="About you :"
+            android:text="@string/aboutyou"
             android:textSize="20sp"
             android:textColor="@color/black"
-            tools:ignore="HardcodedText"
             android:textStyle="bold"/>
 
         <TextView
