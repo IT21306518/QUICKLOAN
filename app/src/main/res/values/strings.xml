@@ -17,8 +17,8 @@
     <string name="your_address2">Enter your Address :</string>
     <string name="your_addres">Enter your Address</string>
     <string name="live_there">How long live there :</string>
-    <string name="live_there2" />
-    <string name="live_there3" />
+    <string name="live_there2">name</string>
+    <string name="live_there3">age</string>
     <string name="how_long">How long</string>
     <string name="next2">Next</string>
     <string name="back">Back</string>
@@ -29,4 +29,5 @@
     <string name="nic">NIC No</string>
     <string name="birth_date">DD/MM/YYYY</string>
     <string name="email">Enter your email</string>
+    <string name="aboutyou">About you :</string>
 </resources>
