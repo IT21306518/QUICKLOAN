@@ -50,9 +50,9 @@
             android:layout_width="380dp"
             android:layout_height="48dp"
             android:height="48dp"
-            android:hint="Enter your first name"
-            android:inputType="text"
             android:autofillHints=""
+            android:hint="@string/enter_name"
+            android:inputType="text"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -60,11 +60,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
-            android:text="Middle Name :"
-            android:textSize="18sp"
+            android:text="@string/middle_names"
             android:textColor="@color/black"
-            tools:ignore="HardcodedText"
-            android:textStyle="bold"/>
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/middle_name_d2"
@@ -86,15 +86,16 @@
             android:textColor="@color/black"
             tools:ignore="HardcodedText"
             android:textStyle="bold"/>
+
         <EditText
             android:id="@+id/last_name_e2"
             android:layout_width="380dp"
             android:layout_height="48sp"
-            android:hint="Enter your last name"
-            android:inputType="text"
-            tools:ignore="HardcodedText"
+            android:height="48dp"
             android:autofillHints=""
-            android:height="48dp"/>
+            android:hint="@string/last_name"
+            android:inputType="text"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/nic_no_f"
@@ -113,7 +114,7 @@
             android:layout_height="48sp"
             android:height="48dp"
             android:autofillHints=""
-            android:hint="NIC No"
+            android:hint="@string/nic"
             android:inputType="number|text"
             tools:ignore="HardcodedText" />
 
@@ -134,7 +135,7 @@
             android:layout_height="48sp"
             android:height="48dp"
             android:autofillHints=""
-            android:hint="DD/MM/YYYY"
+            android:hint="@string/birth_date"
             android:inputType="datetime"
             tools:ignore="HardcodedText" />
 
@@ -155,7 +156,7 @@
             android:layout_height="48sp"
             android:height="48dp"
             android:autofillHints=""
-            android:hint="Enter your email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             tools:ignore="HardcodedText" />
 

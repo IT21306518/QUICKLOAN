@@ -4,4 +4,154 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/secondapply_2a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="25dp"
+        android:background="#035FF4"
+        android:text="@string/quick_loan"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/apply_2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/about_you"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/your_province_2c"
+            tools:ignore="HardcodedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/enter_province"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_province_2c2"
+            tools:ignore="HardcodedText"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/enter_province2"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/your_distric_2d"
+            tools:ignore="HardcodedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/your_distric"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_distric_2d2"
+            tools:ignore="HardcodedText"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/your_distric2"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/your_city_2e"
+            tools:ignore="HardcodedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/your_city"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_city_2e2"
+            tools:ignore="HardcodedText"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/your_city2"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/your_address_2f"
+            tools:ignore="HardcodedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/your_address"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_address_2f2"
+            tools:ignore="HardcodedText"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/your_addres"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/live_there_2g"
+            tools:ignore="HardcodedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/live_there"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/live_address_2g2"
+            tools:ignore="HardcodedText"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/how_long"
+            android:inputType="number" />
+
+
+        <Button
+            android:id="@+id/Back_2a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:hint="@string/back"
+            android:textColorHint="?android:attr/detailsElementBackground" />
+
+        <Button
+            android:id="@+id/next_2a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:layout_marginTop="50sp"
+            android:hint="@string/next2"
+            android:textColor="@color/white"
+            android:textColorHint="?android:attr/detailsElementBackground" />
+
+    </LinearLayout>
+
 </LinearLayout>
