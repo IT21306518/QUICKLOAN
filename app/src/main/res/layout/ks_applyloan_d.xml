@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fourthapply_4a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="42dp"
+        android:background="@drawable/header_background"
+        android:paddingLeft="@dimen/a_about_u"
+        android:text="@string/fourthpage"
+        android:textColor="#006064"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/apply_4b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutIncome"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/employ_catogery_4c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/employ"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/employ_catogery_4c2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/employ_category" />
+
+        <TextView
+            android:id="@+id/company_name_4d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/companeName"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/company_name_4d2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/companyName"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/company_address_4e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/companyAddress"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/company_address_4e2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/companyAddress2"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/land_no_4f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/landNumber"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/land_no_4f2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/landNumber2"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/job_posision_4g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/job_posision"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/job_posision_4g2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/position2"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/income_4h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/income"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/income_4h2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/income2"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <Button
+            android:id="@+id/Back_3a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:background="@drawable/button_background"
+            android:hint="@string/back"
+            android:textColorHint="?android:attr/detailsElementBackground" />
+
+        <Button
+            android:id="@+id/next_3a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:layout_marginLeft="150sp"
+            android:background="@drawable/button_background"
+            android:hint="@string/next2"
+            android:textColor="@color/white"
+            android:textColorHint="?android:attr/detailsElementBackground" />
+    </LinearLayout>
+
+</LinearLayout>
