@@ -80,6 +80,22 @@
     <string name="yesno">Yes/No</string>
     <string name="mobileNo">Enter your Mobile No :</string>
     <string name="mobileno2">mobile no</string>
+    <string name="paged">QuickLoan</string>
+    <string name="your_income">"About your Income "</string>
+    <string name="aboutIncome">"About your Income "</string>
+    <string name="employ">Employment Category?</string>
+    <string name="companyName">"Enter your company name "</string>
+    <string name="companeName">Company Name :</string>
+    <string name="companyAddress">Company Address :</string>
+    <string name="companyAddress2">Enter your company address</string>
+    <string name="landNumber">Workplace Land Number :</string>
+    <string name="landNumber2">Workplace landline number</string>
+    <string name="job_posision">Job Position/designation?</string>
+    <string name="position">Enter your position?designation</string>
+    <string name="position2">Enter your position/designation</string>
+    <string name="income">Monthly income after tax?</string>
+    <string name="income2">income</string>
+    <string name="fourthpage">About your income :</string>
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>
@@ -109,9 +125,18 @@
         <item></item>
         <item>3 month</item>
         <item>6 month</item>
+    </string-array>
 
-
-
+    <string-array name="employ_category">
+        <item></item>
+        <item>Worker</item>
+        <item>Manager</item>
+        <item>Senior manager</item>
+        <item>Self-employed</item>
+        <item>Army forces</item>
+        <item>Medic or related area</item>
+        <item>Unemployed</item>
+        <item>Press and Media Professionals</item>
     </string-array>
 
 </resources>

@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.bu_dashboard)
  
-        setContentView(R.layout.ks_applyloan_c)
+        setContentView(R.layout.ks_applyloan_d)
  
 
     }
