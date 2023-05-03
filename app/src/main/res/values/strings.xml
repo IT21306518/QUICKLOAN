@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Quickloan</string>
+    <!--    kani-->
+    <string name="app_name"></string>
     <string name="apply">APPLY A</string>
     <string name="quicke_loan">Quike Loan</string>
     <string name="quick_loan">Quick Loan</string>
@@ -53,7 +54,64 @@
     <string name="privacy">Privacy and Policy </string>
     <string name="setting">Setting</string>
     <string name="monthly_payment_result">Monthly Payment</string>
- 
+
+
+    <!--    kani-->
     <string name="aboutyou">About you :</string>
- 
+    <string name="quick">QuickLoan</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="bpage">QuickLoan</string>
+    <string name="cpage">QuickLoan</string>
+    <string name="person_name">Contact person/relative\'s name (must be between 20-60 years old)</string>
+    <string name="person">Name</string>
+    <string name="mobileno">Mobile No</string>
+    <string name="first_name">First Name :</string>
+    <string name="your_middlename">Enter your middle name</string>
+    <string name="lastname">Last Name :</string>
+    <string name="nic_no">NIC No :</string>
+    <string name="birthdate">Birth Date :</string>
+    <string name="email_address">Email Address :</string>
+    <string name="mobile">\"Mobaile phone number(contact person) :</string>
+    <string name="relativetype">Relative Type :</string>
+    <string name="about_loan">About your Loan :</string>
+    <string name="barrow">How much would you barrow?</string>
+    <string name="howlong">How Long?</string>
+    <string name="what">Is this loan for Home improvement(Yes/No)</string>
+    <string name="yesno">Yes/No</string>
+    <string name="mobileNo">Enter your Mobile No :</string>
+    <string name="mobileno2">mobile no</string>
+    <string-array name="relativetype">
+        <item></item>
+        <item>Parent</item>
+        <item>Child</item>
+        <item>Brother-Sister</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="livethere">
+        <item></item>
+        <item>Last 3 months</item>
+        <item>4-6 months</item>
+        <item>6-12 months</item>
+        <item>Long than a year</item>
+    </string-array>
+
+    <string-array name="barrow">
+        <item></item>
+        <item>Rs.10,000</item>
+        <item>Rs.20,000</item>
+        <item>Rs.30,000</item>
+        <item>Rs.40,000</item>
+        <item>Rs.50,000</item>
+    </string-array>
+
+    <string-array name="howlong">
+        <item></item>
+        <item>3 month</item>
+        <item>6 month</item>
+
+
+
+    </string-array>
+
 </resources>
