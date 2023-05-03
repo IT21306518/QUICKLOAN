@@ -9,19 +9,167 @@
         android:id="@+id/thirdapply_3a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:height="25dp"
-        android:background="#035FF4"
-        android:text="@string/quick_loan"
-        android:textSize="20sp"
-        android:textColor="@color/white"
+        android:height="42dp"
+        android:background="@drawable/header_background"
+        android:paddingLeft="@dimen/a_about_u"
+        android:text="@string/cpage"
+        android:textColor="#006064"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="600sp"
         android:layout_margin="15dp"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/apply_3b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_person"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_person_3c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/person_name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/contact_person_3c2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/person"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/mobile_no_3d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/mobile"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mobile_no_3d2"
+            android:layout_width="380dp"
+            android:layout_height="48sp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/mobileno"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/relative_type_3e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/relativetype"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/relative_type_3e2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/relativetype" />
+
+        <TextView
+            android:id="@+id/aboutloan_3f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_loan"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/howmuch_barrow_3g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/barrow"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/howmuch_barrow_3g2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/barrow" />
+
+        <TextView
+            android:id="@+id/how_long_3h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/howlong"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/how_long_3h2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/howlong" />
+
+        <TextView
+            android:id="@+id/for_what_3i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/what"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/for_what_3i2"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:height="48dp"
+            android:autofillHints=""
+            android:hint="@string/yesno"
+            android:inputType="text" />
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <Button
+            android:id="@+id/Back_3a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:background="@drawable/button_background"
+            android:hint="@string/back"
+            android:textColorHint="?android:attr/detailsElementBackground" />
+
+        <Button
+            android:id="@+id/next_3a"
+            android:layout_width="100dp"
+            android:layout_height="48sp"
+            android:layout_marginLeft="150sp"
+            android:background="@drawable/button_background"
+            android:hint="@string/next2"
+            android:textColor="@color/white"
+            android:textColorHint="?android:attr/detailsElementBackground" />
+    </LinearLayout>
+
 </LinearLayout>
