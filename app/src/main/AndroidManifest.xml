@@ -12,17 +12,9 @@
         android:theme="@style/Theme.Quickloan"
         tools:targetApi="31">
         <activity
-            android:name=".ks_applyloan4"
-            android:exported="false" />
-        <activity
-            android:name=".ks_applyloan3"
-            android:exported="false" />
-        <activity
-            android:name=".ks_applyloan2"
-            android:exported="false" />
-        <activity
-            android:name=".ks_applyloan1"
+            android:name=".ks_ApplyLoan"
             android:exported="true" >
+
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -30,10 +22,21 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="false">
+            android:name=".ks_applyloan4"
+            android:exported="false" />
+        <activity
+            android:name=".ks_applyloan3"
+            android:exported="false" />
+        <activity
+            android:name=".ks_applyloan2"
+            android:exported="false"/>
 
-        </activity>
+        <activity
+            android:name=".ks_applyloan1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
