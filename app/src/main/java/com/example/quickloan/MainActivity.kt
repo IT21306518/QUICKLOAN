@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 //    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.ks_applyloan_a);
+        setContentView(R.layout.ks_applyloan_b);
 
 //        val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
 //
