@@ -123,6 +123,13 @@
     <string name="income2">income</string>
     <string name="fourthpage">About your income :</string>
     <string name="fourthpages">QuickLoan</string>
+    <!--    kanishka-->
+    <string name="fullName">Enter Your Full Name :</string>
+    <string name="fullName2">Enter your full name</string>
+    <string name="nicNo">Enter your NIC</string>
+    <string name="mobiles">Mobile No :</string>
+    <string name="mobiless">Enter your mobile No</string>
+    <string name="submit">Submit</string>
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>

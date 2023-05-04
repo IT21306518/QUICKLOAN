@@ -1,5 +1,6 @@
 package com.example.quickloan
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -36,6 +37,8 @@ class ks_applyloan1 : AppCompatActivity() {
 
         btnNext.setOnClickListener {
             saveLoanData()
+
+            startActivity(Intent(this, ks_applyloan2::class.java))
         }
     }
     private fun saveLoanData() {
@@ -78,5 +81,6 @@ class ks_applyloan1 : AppCompatActivity() {
             }.addOnFailureListener{ err ->
                 Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_LONG).show()
             }
+
     }
 }

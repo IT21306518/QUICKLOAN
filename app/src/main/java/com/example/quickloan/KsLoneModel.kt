@@ -1,12 +1,14 @@
 package com.example.quickloan
 
 data class KsLoneModel (
+   //1st
    var loneId: String? = null,
    var fName: String? = null,
-   var mName: String? = null,
-   var lName: String? = null,
-   var nic: String? = null,
-   var bDate: String? = null,
+   var nNo: String? = null,
+   var mNo: String? = null,
    var emails: String? = null,
+   var address: String? = null,
+   var hMuch: String? = null,
+   var hLong: String? = null,
 
 )
