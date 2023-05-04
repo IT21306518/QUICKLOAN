@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ks_applyloan4">
 
     <TextView
         android:id="@+id/fourthapply_4a"
@@ -11,7 +14,7 @@
         android:height="42dp"
         android:background="@drawable/header_background"
         android:paddingLeft="@dimen/a_about_u"
-        android:text="@string/fourthpage"
+        android:text="@string/fourthpages"
         android:textColor="#006064"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -149,7 +152,7 @@
         android:layout_margin="15dp">
 
         <Button
-            android:id="@+id/Back_3a"
+            android:id="@+id/Back_4a"
             android:layout_width="100dp"
             android:layout_height="48sp"
             android:background="@drawable/button_background"
@@ -157,7 +160,7 @@
             android:textColorHint="?android:attr/detailsElementBackground" />
 
         <Button
-            android:id="@+id/next_3a"
+            android:id="@+id/next_4a"
             android:layout_width="100dp"
             android:layout_height="48sp"
             android:layout_marginLeft="150sp"
