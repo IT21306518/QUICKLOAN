@@ -38,7 +38,6 @@
     <string name="name">Buwani</string>
     <string name="sreach_elements">Sreach elements</string>
     <string name="search_elements">Search Element</string>
-
     <string name="apply_loan1">Apply loan</string>
     <string name="apply_loan2">Apply Loan</string>
     <string name="calculator">Calculator</string>
@@ -51,9 +50,36 @@
     <string name="account">Profile</string>
     <string name="login">Login</string>
     <string name="faq">FAQ</string>
-    <string name="privacy">Privacy and Policy </string>
+    <string name="privacy"><![CDATA[Privacy & Policy]]></string>
     <string name="setting">Setting</string>
     <string name="monthly_payment_result">Monthly Payment</string>
+    <string name="aboutyou1">Abount you</string>
+    <string name="enter_loan_amount">Enter Loan Amount</string>
+    <string name="interest_rate">Interest Rate (%):</string>
+    <string name="loan_amount">Loan Amount:</string>
+    <string name="enter_interest_rate">Enter Interest Rate</string>
+    <string name="loan_term_years">Loan Term (years):</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_loan_term_in_years">Enter Loan Term in Years</string>
+    <string name="monthly_payment">Monthly Payment:</string>
+    <string name="welcome">Welcome!</string>
+    <string name="quickloan_home">QUICKLOAN</string>
+    <string name="get_app">Get App</string>
+    <string name="add_cal">Add</string>
+    <string name="cal_topic">Calculator History</string>
+    <string name="first_namecal">First Name:</string>
+    <string name="enter_fname">Enter First Name</string>
+    <string name="last_namecal">Last Name:</string>
+    <string name="enterlast_name">Enter Last Name</string>
+    <string name="loan_amount_cal">Loan AMount:</string>
+    <string name="loan_amount_edit">Enter Amount</string>
+    <string name="loan_time_cal">Loan Time(Years):</string>
+    <string name="edit_Loan_time">Enter Loan Years</string>
+    <string name="interest_rate_edit">Enter Interest Rate</string>
+    <string name="txt_interest">Interest Rate:</string>
+    <string name="txt_monthly_payment">Monthly Payment:</string>
+    <string name="edit_monthly_pay">Enter Monthly Payment</string>
+    <string name="button_cal_submit">Submit</string>
 
 
     <!--    kani-->
