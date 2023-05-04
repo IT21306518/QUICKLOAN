@@ -18,6 +18,6 @@
     <color name="colorBackground">#EBEBEB</color>
     <color name="colorTrendingStart">#8aa5e7</color>
     <color name="colorTrendingEnd">#9fb6eb</color>
-    <color name="colorDivider">#D6D6D6</color>
+    <color name="colorDivider">#FF000000</color>
 
 </resources>

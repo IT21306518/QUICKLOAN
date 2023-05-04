@@ -17,8 +17,8 @@
     <string name="your_address2">Enter your Address :</string>
     <string name="your_addres">Enter your Address</string>
     <string name="live_there">How long live there :</string>
-    <string name="live_there2">name</string>
-    <string name="live_there3">age</string>
+    <string name="live_there2" />
+    <string name="live_there3" />
     <string name="how_long">How long</string>
     <string name="next2">Next</string>
     <string name="back">Back</string>
@@ -29,9 +29,8 @@
     <string name="nic">NIC No</string>
     <string name="birth_date">DD/MM/YYYY</string>
     <string name="email">Enter your email</string>
- 
 
-<!--    buwa-->
+    <!--    buwa-->
     <string name="quickLoan">QuickLoan</string>
     <string name="hello">Hello</string>
     <string name="name">Buwani</string>
@@ -50,10 +49,35 @@
     <string name="account">Profile</string>
     <string name="login">Login</string>
     <string name="faq">FAQ</string>
-    <string name="privacy">Privacy and Policy </string>
+    <string name="privacy"><![CDATA[Privacy & Policy]]></string>
     <string name="setting">Setting</string>
     <string name="monthly_payment_result">Monthly Payment</string>
- 
-    <string name="aboutyou">About you :</string>
- 
+    <string name="aboutyou">Abount you</string>
+    <string name="enter_loan_amount">Enter Loan Amount</string>
+    <string name="interest_rate">Interest Rate (%):</string>
+    <string name="loan_amount">Loan Amount:</string>
+    <string name="enter_interest_rate">Enter Interest Rate</string>
+    <string name="loan_term_years">Loan Term (years):</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_loan_term_in_years">Enter Loan Term in Years</string>
+    <string name="monthly_payment">Monthly Payment:</string>
+    <string name="welcome">Welcome!</string>
+    <string name="quickloan_home">QUICKLOAN</string>
+    <string name="get_app">Get App</string>
+    <string name="add_cal">Add</string>
+    <string name="cal_topic">Calculator History</string>
+    <string name="first_name">First Name:</string>
+    <string name="enter_fname">Enter First Name</string>
+    <string name="last_namecal">Last Name:</string>
+    <string name="enterlast_name">Enter Last Name</string>
+    <string name="loan_amount_cal">Loan AMount:</string>
+    <string name="loan_amount_edit">Enter Amount</string>
+    <string name="loan_time_cal">Loan Time(Years):</string>
+    <string name="edit_Loan_time">Enter Loan Years</string>
+    <string name="interest_rate_edit">Enter Interest Rate</string>
+    <string name="txt_interest">Interest Rate:</string>
+    <string name="txt_monthly_payment">Monthly Payment:</string>
+    <string name="edit_monthly_pay">Enter Monthly Payment</string>
+    <string name="button_cal_submit">Submit</string>
+
 </resources>
