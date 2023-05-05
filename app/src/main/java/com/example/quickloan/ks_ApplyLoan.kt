@@ -50,8 +50,8 @@ class ks_ApplyLoan : AppCompatActivity() {
         val mNo = mobileNo.text.toString()
         val emails = email.text.toString()
         val address = uAddress.text.toString()
-        val hMuch = howMuch.dropDownVerticalOffset.toString()
-        val hLong = howLong.dropDownVerticalOffset.toString()
+        val hMuch = howMuch.selectedItem.toString()
+        val hLong = howLong.selectedItem.toString()
 
         //validation
         if (fName.isEmpty()){
@@ -76,6 +76,15 @@ class ks_ApplyLoan : AppCompatActivity() {
         dbRef.child(loneId).setValue(Lone)
             .addOnCompleteListener{
                 Toast.makeText(this, "Lone details submit successfully", Toast.LENGTH_LONG).show()
+
+                fullName.text.clear()
+                nicNo.text.clear()
+                mobileNo.text.clear()
+                email.text.clear()
+                uAddress.text.clear()
+                howMuch.setSelection(0)
+                howLong.setSelection(0)
+
             }.addOnFailureListener{ err ->
                 Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_LONG).show()
             }

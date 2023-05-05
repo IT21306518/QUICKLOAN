@@ -165,7 +165,6 @@
             android:layout_height="48sp"
             android:layout_marginStart="115dp"
             android:layout_marginTop="40sp"
-            android:background="@drawable/button_background"
             android:backgroundTint="@color/colorPrimary"
             android:shadowColor="@color/colorPrimaryDark"
             android:text="@string/submit" />
