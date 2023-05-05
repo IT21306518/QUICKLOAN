@@ -21,19 +21,7 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-        <activity
-            android:name=".ks_applyloan4"
-            android:exported="false" />
-        <activity
-            android:name=".ks_applyloan3"
-            android:exported="false" />
-        <activity
-            android:name=".ks_applyloan2"
-            android:exported="false"/>
 
-        <activity
-            android:name=".ks_applyloan1"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
