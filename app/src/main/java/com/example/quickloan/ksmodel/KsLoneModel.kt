@@ -1,4 +1,4 @@
-package com.example.quickloan
+package com.example.quickloan.ksmodel
 
 data class KsLoneModel (
    //1st
