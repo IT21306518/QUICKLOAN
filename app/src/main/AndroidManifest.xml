@@ -11,6 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quickloan"
         tools:targetApi="31">
+
+
+        <activity
+            android:name=".bu_calDetails"
+            android:exported="false" />
+        <activity
+            android:name=".bu_fetchCalHistory"
+            android:exported="false" />
         <activity
             android:name=".ksactivities.LoneDetailsActivity"
             android:exported="false" />
@@ -22,6 +30,27 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".bu_home"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".bu_dashboard"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".bu_Calculator"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".bu_addCalHistory"
+            android:exported="false" >
+
         </activity>
         <activity
             android:name=".ksactivities.ks_ApplyLoan"
