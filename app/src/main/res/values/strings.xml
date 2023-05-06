@@ -30,9 +30,9 @@
     <string name="nic">NIC No</string>
     <string name="birth_date">DD/MM/YYYY</string>
     <string name="email">Enter your email</string>
+ 
 
-
-    <!--    buwa-->
+<!--    buwa-->
     <string name="quickLoan">QuickLoan</string>
     <string name="hello">Hello</string>
     <string name="name">Buwani</string>
@@ -122,14 +122,6 @@
     <string name="income">Monthly income after tax?</string>
     <string name="income2">income</string>
     <string name="fourthpage">About your income :</string>
-    <string name="user_name">First Name:</string>
-    <string name="user_Lname" />
-    <string name="user_lname">Last Name:</string>
-    <string name="user_loanAmount">Loan Amount:</string>
-    <string name="user_loanTime">Loan Time(Years)</string>
-    <string name="user_rate">Interest Rate:</string>
-    <string name="user_monthPay">Monthly Payment:</string>
-    <string name="user_IDcal">User ID:</string>
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>
