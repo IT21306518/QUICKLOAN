@@ -130,6 +130,13 @@
     <string name="mobiles">Mobile No :</string>
     <string name="mobiless">Enter your mobile No</string>
     <string name="submit">Submit</string>
+    <string name="fullname">Full Name</string>
+    <string name="unic">NIC</string>
+    <string name="umobile">Mobile No</string>
+    <string name="uemail">Email</string>
+    <string name="u2email">Email</string>
+    <string name="uaddress">Address</string>
+    <string name="update">Update</string>
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>

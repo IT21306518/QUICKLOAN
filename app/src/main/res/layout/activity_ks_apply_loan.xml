@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ks_ApplyLoan">
+    tools:context=".ksactivities.ks_ApplyLoan">
 
     <TextView
         android:id="@+id/apply"

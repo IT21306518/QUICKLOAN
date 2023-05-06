@@ -21,4 +21,6 @@
     <color name="colorTrendingEnd">#9fb6eb</color>
     <color name="colorDivider">#D6D6D6</color>
 
+    <color name="divider_grey">#C0C0C0</color>
+
 </resources>
