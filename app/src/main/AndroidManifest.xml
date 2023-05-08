@@ -20,11 +20,8 @@
             android:name=".bu_fetchCalHistory"
             android:exported="false" />
         <activity
-            android:name=".ksactivities.LoneDetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ksactivities.Ks_fetchingActivity2"
-            android:exported="true">
+            android:name=".ksactivities.Ks_ButtonActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,6 +49,14 @@
             android:exported="false" >
 
         </activity>
+
+        <activity
+            android:name=".ksactivities.LoneDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.Ks_fetchingActivity2"
+            android:exported="false"/>
+
         <activity
             android:name=".ksactivities.ks_ApplyLoan"
             android:exported="false" />

@@ -3,10 +3,7 @@ package com.example.quickloan.ksactivities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.example.quickloan.R
 import com.example.quickloan.ksmodel.KsLoneModel
@@ -29,6 +26,8 @@ class LoneDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lone_details)
 
+        val backButton: ImageButton = findViewById(R.id.btnBack3)
+
         initView()
         setValuesToViews()
 
@@ -44,6 +43,14 @@ class LoneDetailsActivity : AppCompatActivity() {
             deleteRecord(
                 intent.getStringExtra("lonId").toString()
             )
+        }
+
+        backButton.setOnClickListener {
+            // Perform the action to navigate back to the dashboard page
+            // For example, you can use an Intent to start the DashboardActivity
+            val intent = Intent(this, Ks_fetchingActivity2::class.java)
+            startActivity(intent)
+            finish() // Optional: finish the current activity to remove it from the back stack
         }
 
     }

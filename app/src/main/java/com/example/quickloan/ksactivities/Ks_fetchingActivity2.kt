@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageButton
+import android.widget.SearchView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -19,6 +21,7 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
     private lateinit var tvKsLoadingData: TextView
     private lateinit var lonList: ArrayList<KsLoneModel>
     private lateinit var dbRef: DatabaseReference
+    private lateinit var searchView: SearchView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,10 +32,24 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
         empRecyclerView.setHasFixedSize(true)
         tvKsLoadingData = findViewById(R.id.tvKsLoadingData)
 
+
         lonList = arrayListOf<KsLoneModel>()
 
+        val backButton: ImageButton = findViewById(R.id.btnBack2)
+
         getLonesData()
+
+        backButton.setOnClickListener {
+            // Perform the action to navigate back to the dashboard page
+            // For example, you can use an Intent to start the DashboardActivity
+            val intent = Intent(this, Ks_ButtonActivity::class.java)
+            startActivity(intent)
+            finish() // Optional: finish the current activity to remove it from the back stack
+        }
+
     }
+
+
 
     private fun getLonesData() {
         empRecyclerView.visibility = View.GONE
@@ -80,6 +97,7 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
             }
 
         })
+
 
 
   }

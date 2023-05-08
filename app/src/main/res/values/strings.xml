@@ -137,6 +137,12 @@
     <string name="u2email">Email</string>
     <string name="uaddress">Address</string>
     <string name="update">Update</string>
+    <string name="entername">Enter Name</string>
+    <string name="applyloan">Apply loan DashBoard...</string>
+    <string name="shedulDash">Loan Apply Dashboard...</string>
+    <string name="manage">Manege Loan Details</string>
+    <string name="Apply">Apply Loan</string>
+    <string name="backApply">Back</string>
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>

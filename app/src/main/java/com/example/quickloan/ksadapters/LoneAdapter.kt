@@ -45,4 +45,7 @@ class LoneAdapter (private val lonList: ArrayList<KsLoneModel>) :
         }
     }
 
+
+
+
 }
