@@ -91,7 +91,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -99,7 +99,8 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Loan id"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:textSize="15sp" />
 
             </LinearLayout>
@@ -140,7 +141,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -148,7 +149,8 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Full Name"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:textSize="15sp" />
 
             </LinearLayout>
@@ -190,7 +192,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -198,7 +200,8 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="NIC"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:textSize="15sp"
 
 
@@ -244,7 +247,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -253,11 +256,10 @@
 
                     android:gravity="center"
                     android:text="Mobile No"
-                    android:textColor="@color/black"
+
                     android:textSize="15sp"
-
-
-                    />
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -299,16 +301,16 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-
                     android:gravity="center"
                     android:text="Email"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:textSize="15sp"
 
 
@@ -355,20 +357,17 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:text="Address"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-
-
-                    />
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -410,16 +409,16 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:text="How Much"
-                    android:textColor="@color/black"
                     android:textSize="15sp"
 
 
@@ -465,16 +464,16 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
-                android:background="@color/divider_grey">
+                android:background="@color/colorPrimaryDark">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:text="How Long"
-                    android:textColor="@color/black"
                     android:textSize="15sp"
 
 
