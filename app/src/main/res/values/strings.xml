@@ -30,9 +30,9 @@
     <string name="nic">NIC No</string>
     <string name="birth_date">DD/MM/YYYY</string>
     <string name="email">Enter your email</string>
- 
 
-<!--    buwa-->
+
+    <!--    buwa-->
     <string name="quickLoan">QuickLoan</string>
     <string name="hello">Hello</string>
     <string name="name">Buwani</string>
@@ -82,7 +82,7 @@
     <string name="button_cal_submit">Submit</string>
 
 
-    <!--    kani-->
+    <!-- kani-->
     <string name="aboutyou">About you :</string>
     <string name="quick">QuickLoan</string>
     <string name="contact_person">Contact Person</string>
@@ -122,6 +122,36 @@
     <string name="income">Monthly income after tax?</string>
     <string name="income2">income</string>
     <string name="fourthpage">About your income :</string>
+    <string name="fourthpages">QuickLoan</string>
+    <!-- kanishka-->
+    <string name="fullName">Enter Your Full Name :</string>
+    <string name="fullName2">Enter your full name</string>
+    <string name="nicNo">Enter your NIC</string>
+    <string name="mobiles">Mobile No :</string>
+    <string name="mobiless">Enter your mobile No</string>
+    <string name="submit">Submit</string>
+    <string name="fullname">Full Name</string>
+    <string name="unic">NIC</string>
+    <string name="umobile">Mobile No</string>
+    <string name="uemail">Email</string>
+    <string name="u2email">Email</string>
+    <string name="uaddress">Address</string>
+    <string name="update">Update</string>
+    <string name="entername">Enter Name</string>
+    <string name="applyloan">Apply loan DashBoard...</string>
+    <string name="shedulDash">Loan Apply Dashboard...</string>
+    <string name="manage">Manege Loan Details</string>
+    <string name="Apply">Apply Loan</string>
+    <string name="backApply">Back</string>
+    <string name="manageLoan">Manage Loan Details</string>
+    <string name="howMuch">How much would you like to borrow?</string>
+    <string name="user_name">FIrst Name:</string>
+    <string name="user_lname">Last Name:</string>
+    <string name="user_loanAmount">Loan Amount:</string>
+    <string name="user_loanTime">Loan TIme(Years)</string>
+    <string name="user_rate">Interest Rate:</string>
+    <string name="user_monthPay">Monthly Payment:</string>
+    <string name="user_IDcal">User ID:</string>
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>

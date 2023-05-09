@@ -9,11 +9,10 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.core.content.ContextCompat.startActivity
 import com.example.quickloan.models.CalHistory
 import com.google.firebase.database.FirebaseDatabase
 
-class bu_calDetails : AppCompatActivity() {
+class Bu_calDetails : AppCompatActivity() {
     private lateinit var tUserId: TextView
     private lateinit var tvUserFName: TextView
     private lateinit var tvUserLName: TextView
@@ -83,7 +82,7 @@ private fun deleteRecord(
     mTask.addOnSuccessListener {
         Toast.makeText(this, "User data deleted", Toast.LENGTH_LONG).show()
 
-        val intent = Intent(this, bu_fetchCalHistory::class.java)
+        val intent = Intent(this, Bu_fetchCalHistory::class.java)
         finish()
         startActivity(intent)
     }.addOnFailureListener{ error ->
