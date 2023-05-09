@@ -12,6 +12,13 @@
         android:theme="@style/Theme.Quickloan"
         tools:targetApi="31">
         <activity
+
+            android:name=".ksactivities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.Ks_ButtonActivity"
+            android:exported="true">
+
             android:name=".Bu_addCalHistory"
             android:exported="false" />
         <activity
@@ -30,8 +37,7 @@
             android:name=".Bu_dashboard"
             android:exported="true">
  
-            android:name=".ksactivities.Ks_ButtonActivity"
-            android:exported="true" >
+           
  
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,19 +45,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".Bu_Calculator"
             android:exported="false">
 
         </activity>
 
+
         <activity
             android:name=".ksactivities.LoneDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".ksactivities.Ks_fetchingActivity2"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".ksactivities.ks_ApplyLoan"
             android:exported="false" />
