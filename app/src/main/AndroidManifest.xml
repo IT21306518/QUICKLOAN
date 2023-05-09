@@ -11,8 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quickloan"
         tools:targetApi="31">
+        <activity
+            android:name=".nv_mainIntro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".bu_calDetails"
             android:exported="false" />
@@ -21,42 +28,31 @@
             android:exported="false" />
         <activity
             android:name=".ksactivities.Ks_ButtonActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".bu_home"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".bu_dashboard"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".bu_Calculator"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".bu_addCalHistory"
-            android:exported="false" >
-
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".ksactivities.LoneDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".ksactivities.Ks_fetchingActivity2"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".ksactivities.ks_ApplyLoan"
             android:exported="false" />
