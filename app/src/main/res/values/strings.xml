@@ -82,7 +82,7 @@
     <string name="button_cal_submit">Submit</string>
 
 
-    <!--    kani-->
+    <!-- kani-->
     <string name="aboutyou">About you :</string>
     <string name="quick">QuickLoan</string>
     <string name="contact_person">Contact Person</string>
@@ -123,7 +123,7 @@
     <string name="income2">income</string>
     <string name="fourthpage">About your income :</string>
     <string name="fourthpages">QuickLoan</string>
-    <!--    kanishka-->
+    <!-- kanishka-->
     <string name="fullName">Enter Your Full Name :</string>
     <string name="fullName2">Enter your full name</string>
     <string name="nicNo">Enter your NIC</string>
@@ -143,6 +143,17 @@
     <string name="manage">Manege Loan Details</string>
     <string name="Apply">Apply Loan</string>
     <string name="backApply">Back</string>
+ 
+    <string name="manageLoan">Manage Loan Details</string>
+    <string name="howMuch">How much would you like to borrow?</string>
+    <string name="user_name">FIrst Name:</string>
+    <string name="user_lname">Last Name:</string>
+    <string name="user_loanAmount">Loan Amount:</string>
+    <string name="user_loanTime">Loan TIme(Years)</string>
+    <string name="user_rate">Interest Rate:</string>
+    <string name="user_monthPay">Monthly Payment:</string>
+    <string name="user_IDcal">User ID:</string>
+ 
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>

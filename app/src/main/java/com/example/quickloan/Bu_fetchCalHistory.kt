@@ -15,7 +15,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
-class bu_fetchCalHistory : AppCompatActivity() {
+class Bu_fetchCalHistory : AppCompatActivity() {
     private lateinit var userRecyclerView: RecyclerView
     private lateinit var tvLoadingData: TextView
     private lateinit var userList: ArrayList<CalHistory>
@@ -48,8 +48,8 @@ class bu_fetchCalHistory : AppCompatActivity() {
                 userList.clear()
                 if (snapshot.exists()){
                     for (empSnap in snapshot.children){
-                        val empData = empSnap.getValue(CalHistory::class.java)
-                        userList.add(empData!!)
+                        val userData = empSnap.getValue(CalHistory::class.java)
+                        userList.add(userData!!)
                     }
                     val mAdapter = UserAdapter(userList)
                     userRecyclerView.adapter = mAdapter
@@ -57,7 +57,7 @@ class bu_fetchCalHistory : AppCompatActivity() {
                     mAdapter.setOnItemClickListener(object : UserAdapter.onItemClickListener{
                         override fun onItemClick(position: Int) {
 
-                            val intent = Intent(this@bu_fetchCalHistory, bu_calDetails::class.java)
+                            val intent = Intent(this@Bu_fetchCalHistory, Bu_calDetails::class.java)
 
                             //put extras
                             intent.putExtra("userId", userList [position].userId)
