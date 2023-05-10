@@ -9,7 +9,7 @@ import com.example.quickloan.models.CalHistory
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
-class bu_addCalHistory : AppCompatActivity() {
+class Bu_addCalHistory : AppCompatActivity() {
     private lateinit var etUserFName: EditText
     private lateinit var etUserLName: EditText
     private lateinit var calLoanAmount: EditText

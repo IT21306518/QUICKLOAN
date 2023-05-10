@@ -131,7 +131,7 @@ class ks_ApplyLoan : AppCompatActivity() {
                 Toast.makeText(this, "Lone details submit successfully", Toast.LENGTH_LONG).show()
 
 
-                //if Data successfully insertsd ofter clear all fields default
+                //if Data successfully insertsd after clear all fields default
                 fullName.text.clear()
                 nicNo.text.clear()
                 mobileNo.text.clear()
