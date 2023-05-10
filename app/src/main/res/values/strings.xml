@@ -143,6 +143,13 @@
     <string name="manage">Manege Loan Details</string>
     <string name="Apply">Apply Loan</string>
     <string name="backApply">Back</string>
+
+    <string name="manageLoan">Manage Loan Details</string>
+    <string name="howMuch">How much would you like to borrow?</string>
+    <string name="usFullName">Enter your full name</string>
+    <string name="savedata">"Save "</string>
+    <string name="userprofile">User Profile</string>
+
  
     <string name="manageLoan">Manage Loan Details</string>
     <string name="howMuch">How much would you like to borrow?</string>
@@ -154,6 +161,7 @@
     <string name="user_monthPay">Monthly Payment:</string>
     <string name="user_IDcal">User ID:</string>
  
+
     <string-array name="relativetype">
         <item></item>
         <item>Parent</item>
