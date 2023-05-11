@@ -9,6 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.example.quickloan.ksactivities.ks_ApplyLoan
 import com.google.firebase.auth.FirebaseAuth
 
 class activity_nv_signin : AppCompatActivity() {
@@ -31,6 +32,14 @@ class activity_nv_signin : AppCompatActivity() {
         tvForgotpwd = findViewById(R.id.forgot_password)
         firebaseAuth = FirebaseAuth.getInstance()
 
+
+        btnLogin.setOnClickListener {
+            navigateTonextActivity()
+
+
+        }
+
+
         btnLogin.setOnClickListener {
             val email = etEmail.text.toString().trim()
             val password = etPass.text.toString().trim()
@@ -39,6 +48,8 @@ class activity_nv_signin : AppCompatActivity() {
                 etEmail.requestFocus()
                 return@setOnClickListener
             }
+
+
 
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                 etEmail.error = "Please enter a valid email"
@@ -90,6 +101,11 @@ class activity_nv_signin : AppCompatActivity() {
             val signupIntent = Intent(this, activity_nv_signup::class.java)
             startActivity(signupIntent)
         }
+    }
+
+    fun navigateTonextActivity() {
+        val intent = Intent(this, Bu_dashboard::class.java)
+        startActivity(intent)
     }
 
     // Handle forgot password

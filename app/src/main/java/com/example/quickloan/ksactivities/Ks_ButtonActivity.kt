@@ -29,6 +29,7 @@ class Ks_ButtonActivity : AppCompatActivity() {
         btnManege.setOnClickListener {
             navigateTonextActivity()
         }
+
     }
 
     private fun navigateToNextActivity() {
