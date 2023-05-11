@@ -14,6 +14,13 @@
         <activity
 
             android:name=".nv_mainIntro"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ksactivities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.Ks_ButtonActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,12 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            android:name=".ksactivities.UserProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ksactivities.Ks_ButtonActivity"
-            android:exported="true">
 
+            <activity
             android:name=".Bu_addCalHistory"
             android:exported="false" />
 
@@ -36,15 +39,6 @@
         <activity
             android:name=".Bu_fetchCalHistory"
             android:exported="false" />
- 
-
- 
-        <activity
-
-            android:name=".ksactivities.Ks_ButtonActivity"
-            android:exported="true">
- 
- 
             
         <activity
             android:name=".bu_home"
@@ -53,35 +47,10 @@
             android:name=".Bu_dashboard"
  
             android:exported="false"/>
-        <activity
-            android:name=".ksactivities.Ks_ButtonActivity"
-            android:exported="true" >
- 
-             
- 
-          
-        </activity>
-
-        <activity
-            android:name=".bu_home"
-            android:exported="false"></activity>
-        <activity
-            android:name=".bu_dashboard"
-            android:exported="false"></activity>
-        <activity
-            android:name=".bu_Calculator"
-            android:exported="false"></activity>
-        <activity
-            android:name=".bu_addCalHistory"
-            android:exported="false"></activity>
-
 
         <activity
             android:name=".Bu_Calculator"
-            android:exported="false">
-
-        </activity>
-
+            android:exported="false"/>
 
         <activity
             android:name=".ksactivities.LoneDetailsActivity"
@@ -94,13 +63,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
