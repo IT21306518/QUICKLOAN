@@ -24,8 +24,8 @@
 
 
     <item
-        android:id="@+id/menuSetting"
-        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/menuhistory"
+        android:icon="@drawable/baseline_manage_history_24"
         android:title="@string/setting"/>
 
 </menu>
