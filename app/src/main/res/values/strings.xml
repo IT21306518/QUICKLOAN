@@ -144,20 +144,18 @@
     <string name="Apply">Apply Loan</string>
     <string name="backApply">Back</string>
 
-
+    <string name="manageLoan">Manage Loan Details</string>
+    <string name="howMuch">How much would you like to borrow?</string>
     <string name="usFullName">Enter your full name</string>
     <string name="savedata">"Save "</string>
     <string name="userprofile">User Profile</string>
 
     <string name="queekloan">QueekLoan</string>
     <string name="QueekLoan">QueekLoan</string>
-=======
-=======
->>>>>>> fe137898372835db22459f25bbce85862e492f25
+
 
  
-    <string name="manageLoan">Manage Loan Details</string>
-    <string name="howMuch">How much would you like to borrow?</string>
+
     <string name="user_name">FIrst Name:</string>
     <string name="user_lname">Last Name:</string>
     <string name="user_loanAmount">Loan Amount:</string>
