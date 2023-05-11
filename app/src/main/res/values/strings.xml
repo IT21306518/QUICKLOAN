@@ -152,6 +152,10 @@
     <string name="savedata">"Save "</string>
     <string name="userprofile">User Profile</string>
 
+    <string name="queekloan">QueekLoan</string>
+    <string name="QueekLoan">QueekLoan</string>
+
+
  
 
     <string name="user_name">FIrst Name:</string>
@@ -162,6 +166,7 @@
     <string name="user_monthPay">Monthly Payment:</string>
     <string name="user_IDcal">User ID:</string>
  
+
 
     <string-array name="relativetype">
         <item></item>
