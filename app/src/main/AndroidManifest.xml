@@ -14,6 +14,8 @@
         <activity
 
             android:name=".nv_mainIntro"
+ 
+            
             android:exported="false"/>
 
         <activity
@@ -21,15 +23,20 @@
             android:exported="false" />
         <activity
             android:name=".ksactivities.Ks_ButtonActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
         </activity>
+ 
+        <activity
+            android:name=".ksactivities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ksactivities.Ks_ButtonActivity"
+            android:exported="false"/>
+         
+ 
 
             <activity
+ 
             android:name=".Bu_addCalHistory"
             android:exported="false" />
 
@@ -39,15 +46,22 @@
         <activity
             android:name=".Bu_fetchCalHistory"
             android:exported="false" />
+ 
             
         <activity
-            android:name=".bu_home"
+            android:name=".Bu_home"
             android:exported="false"></activity>
         <activity
             android:name=".Bu_dashboard"
- 
-            android:exported="false"/>
 
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+         
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Bu_Calculator"
             android:exported="false"/>
@@ -63,8 +77,32 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+ 
+            android:exported="false">
 
+        </activity>
+        <activity
+            android:name=".activity_nv_signin"
+            android:exported="false" />
+        <activity
+            android:name=".activity_nv_signup"
+            android:exported="false" />
+        <activity
+            android:name=".nv_PaymentForm"
+            android:exported="false" />
+        <activity
+            android:name=".nv_payments"
+            android:exported="false" />
+        <activity
+            android:name=".nv_paymentsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nv_repaymentDasboard"
+            android:exported="false" />
+ 
+            
+
+ 
     </application>
 
 </manifest>

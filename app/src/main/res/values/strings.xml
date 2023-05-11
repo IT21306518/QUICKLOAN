@@ -80,6 +80,8 @@
     <string name="txt_monthly_payment">Monthly Payment:</string>
     <string name="edit_monthly_pay">Enter Monthly Payment</string>
     <string name="button_cal_submit">Submit</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation drawer</string>
 
 
     <!-- kani-->
