@@ -10,6 +10,7 @@ import com.example.quickloan.ksactivities.Ks_fetchingActivity2
 import com.example.quickloan.ksactivities.UserProfileActivity
 import com.example.quickloan.ksactivities.ks_ApplyLoan
 
+
 class Bu_dashboard : AppCompatActivity() {
 
      private lateinit var btndashapply: ImageView

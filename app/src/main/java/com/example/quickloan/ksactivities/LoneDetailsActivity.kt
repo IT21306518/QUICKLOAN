@@ -54,12 +54,12 @@ class LoneDetailsActivity : AppCompatActivity() {
     }
 
     private fun initView() {
-        tvLonId = findViewById(R.id.tvLonId)
-        tvfName = findViewById(R.id.tvFullName)
-        tvNic = findViewById(R.id.tvNIC)
-        tvMobile = findViewById(R.id.tvMobile)
-        tvEmail = findViewById(R.id.tvEmail)
-        tvAddres = findViewById(R.id.tvAddress)
+        tvLonId = findViewById(R.id.loanid)
+        tvfName = findViewById(R.id.date)
+        tvNic = findViewById(R.id.name)
+        tvMobile = findViewById(R.id.amount)
+        tvEmail = findViewById(R.id.amount)
+        tvAddres = findViewById(R.id.mobileNo)
         tvHmuch = findViewById(R.id.tvHowMuch)
         tvHlong = findViewById(R.id.tvHowLong)
 

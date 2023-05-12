@@ -39,7 +39,7 @@ class nv_paymentsDetailsActivity : AppCompatActivity(){
                 intent.getStringExtra("loanId").toString()
             )
         }
-               }
+        }
 
     private fun deleteRecord(
         id:String
@@ -61,13 +61,13 @@ class nv_paymentsDetailsActivity : AppCompatActivity(){
     private fun initView(){
         tvloanid = findViewById(R.id.loanid)
         tvdate = findViewById(R.id.date)
-        tvname = findViewById(R.id.edit_text_card_holder_name)
-        tvamount = findViewById(R.id.edit_text_repayment_amount)
-        tvpostalcode = findViewById(R.id.edit_text_postalCode)
-        tvmobileno = findViewById(R.id.edit_text_mobileNo)
+        tvname = findViewById(R.id.name)
+        tvamount = findViewById(R.id.amount)
+        tvpostalcode = findViewById(R.id.postalcode)
+        tvmobileno = findViewById(R.id.mobileNo)
 
         btnupdate = findViewById(R.id.btnUpdate)
-        btndelete = findViewById(R.id.buttonDelete)
+        btndelete = findViewById(R.id.btnDelete)
     }
 
 
