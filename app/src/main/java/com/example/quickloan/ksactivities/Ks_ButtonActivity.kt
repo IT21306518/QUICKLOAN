@@ -5,13 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.ImageView
+import com.example.quickloan.Bu_dashboard
 import com.example.quickloan.R
 
 class Ks_ButtonActivity : AppCompatActivity() {
 
     private lateinit var btnApply: ImageView
     private lateinit var btnManege: ImageView
+    private lateinit var btnBack: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +22,7 @@ class Ks_ButtonActivity : AppCompatActivity() {
 
         btnApply = findViewById(R.id.btnApply)
         btnManege = findViewById(R.id.btnManege)
+        btnBack = findViewById(R.id.btnBack4)
 
         btnApply.setOnClickListener {
             navigateToNextActivity()
@@ -28,6 +32,13 @@ class Ks_ButtonActivity : AppCompatActivity() {
 
         btnManege.setOnClickListener {
             navigateTonextActivity()
+        }
+        btnBack.setOnClickListener {
+            // Perform the action to navigate back to the dashboard page
+            // For example, you can use an Intent to start the DashboardActivity
+            val intent = Intent(this, Bu_dashboard::class.java)
+            startActivity(intent)
+            finish() // Optional: finish the current activity to remove it from the back stack
         }
 
     }

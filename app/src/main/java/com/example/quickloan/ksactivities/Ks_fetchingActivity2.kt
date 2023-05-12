@@ -23,11 +23,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
     private lateinit var dbRef: DatabaseReference
 
 
-
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ks_fetching2)
@@ -36,9 +31,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
         empRecyclerView.layoutManager = LinearLayoutManager(this)
         empRecyclerView.setHasFixedSize(true)
         tvKsLoadingData = findViewById(R.id.tvKsLoadingData)
-
-
-
 
 
         lonList = arrayListOf<KsLoneModel>()
@@ -55,9 +47,7 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
             finish() // Optional: finish the current activity to remove it from the back stack
         }
 
-
     }
-
 
 
     private fun filterLonesData() {
@@ -65,8 +55,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
 
 
     }
-
-
 
     private fun getLonesData() {
         empRecyclerView.visibility = View.GONE
