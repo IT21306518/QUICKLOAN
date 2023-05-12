@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+
 class PayAdapter(private  val payList: ArrayList<PaymentModel>):
     RecyclerView.Adapter<PayAdapter.ViewHolder>() {
 
@@ -25,7 +26,7 @@ class PayAdapter(private  val payList: ArrayList<PaymentModel>):
 
     override fun onBindViewHolder(holder: PayAdapter.ViewHolder, position: Int) {
         val currentPayment =payList[position]
-        holder.tvPayDetails.text=currentPayment.Date
+        holder.tvPayDetails.text=currentPayment.LoanID
     }
 
     override fun getItemCount(): Int {

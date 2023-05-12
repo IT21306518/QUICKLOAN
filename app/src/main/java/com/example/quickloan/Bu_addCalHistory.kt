@@ -35,7 +35,9 @@ class Bu_addCalHistory : AppCompatActivity() {
         dbRef = FirebaseDatabase.getInstance().getReference("Calculator_History")
 
         btnSubmitData.setOnClickListener {
-            saveUserData()
+            if (validateInputs()) {
+                saveUserData()
+            }
         }
     }
 
@@ -52,22 +54,22 @@ class Bu_addCalHistory : AppCompatActivity() {
 
 
         if (etFName.isEmpty()) {
-            etUserFName.error = "Please enter name"
+            etUserFName.error = "Please enter  first name"
         }
         if (etLName.isEmpty()) {
-            etUserLName.error = "Please enter age"
+            etUserLName.error = "Please enter last name"
         }
         if (calAmount.isEmpty()) {
-            calLoanAmount.error = "Please enter salary"
+            calLoanAmount.error = "Please enter amount"
         }
         if (calTime.isEmpty()) {
-            calLoanTime.error = "Please enter salary"
+            calLoanTime.error = "Please enter time"
         }
         if (calRate.isEmpty()) {
-            calLoanRate.error = "Please enter salary"
+            calLoanRate.error = "Please enter interest rate"
         }
         if (calMonthlypayment.isEmpty()) {
-            calLoanMonthlypayment.error = "Please enter salary"
+            calLoanMonthlypayment.error = "Please enter payment"
         }
 
         val userId = dbRef.push().key!!
@@ -92,4 +94,46 @@ class Bu_addCalHistory : AppCompatActivity() {
             }
 
     }
+
+    private fun validateInputs(): Boolean {
+        var isValid = true
+
+        val etFName = etUserFName.text.toString().trim()
+        val etLName = etUserLName.text.toString().trim()
+        val calAmount = calLoanAmount.text.toString().trim()
+        val calTime = calLoanTime.text.toString().trim()
+        val calRate = calLoanRate.text.toString().trim()
+        val calMonthlypayment = calLoanMonthlypayment.text.toString().trim()
+
+        if (etFName.isEmpty()) {
+            etUserFName.error = "Please enter first name"
+            isValid = false
+        }
+        if (etLName.isEmpty()) {
+            etUserLName.error = "Please enter last name"
+            isValid = false
+        }
+        if (calAmount.isEmpty()) {
+            calLoanAmount.error = "Please enter amount"
+            isValid = false
+        }
+        if (calTime.isEmpty()) {
+            calLoanTime.error = "Please enter time"
+            isValid = false
+        }
+        if (calRate.isEmpty()) {
+            calLoanRate.error = "Please enter interest rate"
+            isValid = false
+        }
+        if (calMonthlypayment.isEmpty()) {
+            calLoanMonthlypayment.error = "Please enter payment"
+            isValid = false
+        }
+
+        return isValid
+
+
+    }
+
+
 }

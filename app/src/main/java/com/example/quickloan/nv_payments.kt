@@ -16,9 +16,9 @@ import com.google.firebase.database.ValueEventListener
 class nv_payments : AppCompatActivity() {
 
     private lateinit var payRecyclerView: RecyclerView
-private lateinit var tvLoadingData:TextView
-private lateinit var paymentList: ArrayList<PaymentModel>
-private lateinit var dbRef:DatabaseReference
+    private lateinit var tvLoadingData:TextView
+    private lateinit var paymentList: ArrayList<PaymentModel>
+    private lateinit var dbRef:DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

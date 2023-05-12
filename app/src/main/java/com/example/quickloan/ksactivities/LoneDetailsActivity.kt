@@ -46,11 +46,9 @@ class LoneDetailsActivity : AppCompatActivity() {
         }
 
         backButton.setOnClickListener {
-            // Perform the action to navigate back to the dashboard page
-            // For example, you can use an Intent to start the DashboardActivity
             val intent = Intent(this, Ks_fetchingActivity2::class.java)
             startActivity(intent)
-            finish() // Optional: finish the current activity to remove it from the back stack
+            finish()
         }
 
     }
@@ -96,8 +94,6 @@ class LoneDetailsActivity : AppCompatActivity() {
             Toast.makeText(this, "Deleting Err ${error.message}", Toast.LENGTH_LONG).show()
         }
     }
-
-
     private fun openUpdateDialog(
         lonId: String,
         fName: String
@@ -146,7 +142,7 @@ class LoneDetailsActivity : AppCompatActivity() {
 
             )
             Toast.makeText(applicationContext, "Loan Data Update", Toast.LENGTH_LONG).show()
-//we are setting updated data to our textviews
+//setting updated data to our textviews
             tvfName.text = etLonName.text.toString()
             tvNic.text = etNic.text.toString()
             tvMobile.text = etMobile.text.toString()
