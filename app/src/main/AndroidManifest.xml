@@ -14,7 +14,7 @@
 
         <activity
             android:name=".nv_mainIntro"
-            android:exported="true">
+            android:exported="false">
 
         </activity>
         <activity
@@ -89,10 +89,7 @@
         <activity
             android:name=".nv_repaymentDasboard"
             android:exported="false" />
- 
-            
 
- 
     </application>
 
 </manifest>

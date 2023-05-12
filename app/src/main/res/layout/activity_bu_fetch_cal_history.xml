@@ -79,7 +79,6 @@
             android:layout_height="0dp"
             android:overScrollMode="never"
             android:scrollbars="none"
-            app:layout_constraintBottom_toTopOf="@id/ViewDivider"
             app:layout_constraintTop_toBottomOf="@id/layoutHeader"
             tools:ignore="NotSibling">
 
@@ -121,22 +120,7 @@
         </ScrollView>
 
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:backgroundTint="@color/colorPrimaryDark"
-            app:itemIconSize="30dp"
-            app:labelVisibilityMode="unlabeled"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:menu="@menu/navigation_menu"/>
 
-        <View
-            android:id="@+id/ViewDivider"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorDivider"
-            app:layout_constraintBottom_toTopOf="@id/bottomNavigation"/>
 
 
 

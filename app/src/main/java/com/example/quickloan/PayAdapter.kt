@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+
 class PayAdapter(private  val payList: ArrayList<PaymentModel>):
     RecyclerView.Adapter<PayAdapter.ViewHolder>() {
 
@@ -19,13 +20,13 @@ class PayAdapter(private  val payList: ArrayList<PaymentModel>):
         mListener=clickListener
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PayAdapter.ViewHolder{
-        val itemView=LayoutInflater.from(parent.context).inflate(R.layout.activity_nv_payments,parent,false)
+        val itemView=LayoutInflater.from(parent.context).inflate(R.layout.nv_paymentlist,parent,false)
         return ViewHolder(itemView,mListener)
     }
 
     override fun onBindViewHolder(holder: PayAdapter.ViewHolder, position: Int) {
         val currentPayment =payList[position]
-        holder.tvPayDetails.text=currentPayment.Date
+        holder.tvPayDetails.text=currentPayment.LoanID
     }
 
     override fun getItemCount(): Int {
