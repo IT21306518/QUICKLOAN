@@ -26,7 +26,7 @@ class PayAdapter(private  val payList: ArrayList<PaymentModel>):
 
     override fun onBindViewHolder(holder: PayAdapter.ViewHolder, position: Int) {
         val currentPayment =payList[position]
-        holder.tvPayDetails.text=currentPayment.LoanID
+        holder.tvPayDetails.text=currentPayment.Date
     }
 
     override fun getItemCount(): Int {

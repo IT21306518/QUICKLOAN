@@ -98,7 +98,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/paynowIMG"
+                    android:id="@+id/btnApply"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="8dp"
@@ -132,7 +132,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/manageIMG"
+                    android:id="@+id/btnManege"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="8dp"
