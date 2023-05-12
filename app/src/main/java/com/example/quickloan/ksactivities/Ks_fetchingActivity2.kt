@@ -23,11 +23,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
     private lateinit var dbRef: DatabaseReference
 
 
-
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ks_fetching2)
@@ -38,9 +33,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
         tvKsLoadingData = findViewById(R.id.tvKsLoadingData)
 
 
-
-
-
         lonList = arrayListOf<KsLoneModel>()
 
         val backButton: ImageButton = findViewById(R.id.btnBack2)
@@ -48,16 +40,12 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
         getLonesData()
 
         backButton.setOnClickListener {
-            // Perform the action to navigate back to the dashboard page
-            // For example, you can use an Intent to start the DashboardActivity
             val intent = Intent(this, Ks_ButtonActivity::class.java)
             startActivity(intent)
-            finish() // Optional: finish the current activity to remove it from the back stack
+            finish()
         }
 
-
     }
-
 
 
     private fun filterLonesData() {
@@ -65,8 +53,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
 
 
     }
-
-
 
     private fun getLonesData() {
         empRecyclerView.visibility = View.GONE
@@ -114,11 +100,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
             }
 
         })
-
-
-
   }
-
-
 
 }

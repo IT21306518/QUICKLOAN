@@ -22,9 +22,6 @@ class ks_ApplyLoan : AppCompatActivity() {
     private lateinit var btnsubmit: Button
 
 
-
-
-
     private lateinit var dbRef: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,17 +48,13 @@ class ks_ApplyLoan : AppCompatActivity() {
 
         }
         backButton.setOnClickListener {
-            // Perform the action to navigate back to the dashboard page
-            // For example, you can use an Intent to start the DashboardActivity
             val intent = Intent(this, Ks_ButtonActivity::class.java)
             startActivity(intent)
-            finish() // Optional: finish the current activity to remove it from the back stack
+            finish()
         }
 
 
     }
-
-
     //getting values
     private fun saveLoanData(){
         val fName = fullName.text.toString().trim()
@@ -72,19 +65,27 @@ class ks_ApplyLoan : AppCompatActivity() {
         val hMuch = howMuch.selectedItem.toString().trim()
         val hLong = howLong.selectedItem.toString().trim()
 
-        // Validation and check if all fields are filled
+        // check if all fields are filled
         var isValid = true
 
-        //validation and check all field fill or not
+
         if (fName.isEmpty()){
             fullName.error = "Please enter full name"
             fullName.requestFocus()
             isValid = false
         }
-        if (nNo.isEmpty()){
+        if (nNo.isEmpty()) {
             nicNo.error = "Please enter NIC"
             nicNo.requestFocus()
             isValid = false
+        } else {
+            //  NIC format validation
+            val regex = Regex("^\\d{9}[vVxX]$") // Assuming the NIC should be 10 characters long with a single character at the end
+            if (!nNo.matches(regex)) {
+                nicNo.error = "Invalid NIC format"
+                nicNo.requestFocus()
+                isValid = false
+            }
         }
 
         if (mNo.isEmpty()){
