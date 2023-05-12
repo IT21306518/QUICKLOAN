@@ -40,11 +40,9 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
         getLonesData()
 
         backButton.setOnClickListener {
-            // Perform the action to navigate back to the dashboard page
-            // For example, you can use an Intent to start the DashboardActivity
             val intent = Intent(this, Ks_ButtonActivity::class.java)
             startActivity(intent)
-            finish() // Optional: finish the current activity to remove it from the back stack
+            finish()
         }
 
     }
@@ -102,11 +100,6 @@ class Ks_fetchingActivity2 : AppCompatActivity() {
             }
 
         })
-
-
-
   }
-
-
 
 }
