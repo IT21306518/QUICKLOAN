@@ -60,7 +60,7 @@ private lateinit var dbRef:DatabaseReference
                             intent.putExtra("loanId",paymentList[position].LoanID)
                             intent.putExtra("date",paymentList[position].Date)
                             intent.putExtra("name",paymentList[position].CardHolderName)
-                            intent.putExtra("Amount",paymentList[position].RepaymentAmount)
+                            intent.putExtra("amount",paymentList[position].RepaymentAmount)
                             intent.putExtra("postalCode",paymentList[position].PostalCode)
                             intent.putExtra("mobileNo",paymentList[position].MobileNO)
                             startActivity(intent)

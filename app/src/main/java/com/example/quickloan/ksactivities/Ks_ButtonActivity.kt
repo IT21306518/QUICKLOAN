@@ -3,8 +3,6 @@ package com.example.quickloan.ksactivities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import android.widget.ImageView
 import com.example.quickloan.R
 
@@ -17,8 +15,8 @@ class Ks_ButtonActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ks_button)
 
-        btnApply = findViewById(R.id.btnApply)
-        btnManege = findViewById(R.id.btnManege)
+        btnApply = findViewById(R.id.paynowIMG)
+        btnManege = findViewById(R.id.manageIMG)
 
         btnApply.setOnClickListener {
             navigateToNextActivity()

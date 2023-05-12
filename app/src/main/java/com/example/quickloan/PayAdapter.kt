@@ -19,7 +19,7 @@ class PayAdapter(private  val payList: ArrayList<PaymentModel>):
         mListener=clickListener
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PayAdapter.ViewHolder{
-        val itemView=LayoutInflater.from(parent.context).inflate(R.layout.activity_nv_payments,parent,false)
+        val itemView=LayoutInflater.from(parent.context).inflate(R.layout.nv_paymentlist,parent,false)
         return ViewHolder(itemView,mListener)
     }
 

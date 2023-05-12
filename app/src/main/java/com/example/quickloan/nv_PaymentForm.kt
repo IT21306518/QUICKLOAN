@@ -66,8 +66,16 @@ class nv_PaymentForm : AppCompatActivity(){
         if(mobileNO.isEmpty()){
             MobileNO.error="Please enter mobile number"
         }
+        if (!isValidMobileNumber(mobileNO)) {
+            MobileNO.error = "Mobile No should have 10 digits "
+            return
+        }
         if(cardNo.isEmpty()){
             CardNo.error="Please enter card number"
+        }
+        if (!isValidCardNumber(cardNo)) {
+            CardNo.error = "Card No should have 16 digits"
+            return
         }
         if(cardHolderName.isEmpty()){
             CardHolderName.error="Please enter card holder name"
@@ -77,6 +85,10 @@ class nv_PaymentForm : AppCompatActivity(){
         }
         if(cvvs.isEmpty()){
             cvv.error="Please enter cvv"
+        }
+        if (!isValidCVV(cvvs)) {
+            cvv.error = "CVV should have 3 digits"
+            return
         }
         val loanID =dbRef.push().key!!
         val payment = PaymentModel(loanID,repaymentAmount,date,postalCode,mobileNO,cardNo,cardHolderName,expiryDate,cvvs)
@@ -89,6 +101,21 @@ class nv_PaymentForm : AppCompatActivity(){
 
             }
 
+    }
+
+    private fun isValidCVV(cvvs: String): Boolean {
+        val cvvRegex = Regex("^[0-9]{3}$")
+        return cvvRegex.matches(cvvs)
+    }
+
+    private fun isValidCardNumber(cardNo: String): Boolean {
+        val cardRegex = Regex("^[0-9]{16}$")
+        return cardRegex.matches(cardNo)
+    }
+
+    private fun isValidMobileNumber(mobileNO: String): Boolean {
+        val mobileRegex = Regex("^[0-9]{10}$")
+        return mobileRegex.matches(mobileNO)
     }
 
 }
