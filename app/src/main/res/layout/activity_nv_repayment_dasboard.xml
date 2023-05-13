@@ -16,7 +16,7 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="350dp"
             android:background="@drawable/nv_top_background">
 
             <LinearLayout
@@ -40,7 +40,7 @@
                         android:lineSpacingExtra="11sp"
                         android:text="Rs.8000"
                         android:textColor="#ffffff"
-                        android:textSize="35sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -50,9 +50,9 @@
                         android:gravity="center_horizontal"
 
                         android:lineSpacingExtra="11sp"
-                        android:text="Hello,"
+                        android:text="Hello"
                         android:textColor="#ffffff"
-                        android:textSize="35sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -80,7 +80,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="130dp"
                     android:layout_marginTop="36dp"
                     app:cardCornerRadius="12dp">
 
