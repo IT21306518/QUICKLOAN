@@ -15,13 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="280dp"
+            android:layout_marginTop="230dp"
             android:padding="20dp">
             <EditText
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:id="@+id/signup_email"
                 android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
                 android:background="@drawable/nv_lavender_border"
                 android:padding="8dp"
                 android:hint="Email"
@@ -29,10 +30,11 @@
                 android:drawablePadding="8dp"
                 android:textColor="@color/grey"/>
             <EditText
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:id="@+id/signup_password"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
                 android:background="@drawable/nv_lavender_border"
                 android:padding="8dp"
                 android:hint="Password"
@@ -41,10 +43,11 @@
                 android:drawablePadding="8dp"
                 android:textColor="@color/grey"/>
             <EditText
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:id="@+id/signup_confirm"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
                 android:background="@drawable/nv_lavender_border"
                 android:padding="8dp"
                 android:hint="Confirm Password"
@@ -53,9 +56,10 @@
                 android:drawablePadding="8dp"
                 android:textColor="@color/grey"/>
             <Button
-                android:layout_width="350dp"
+                android:layout_width="300dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
                 android:text="Sign Up"
                 android:id="@+id/signup_button"
                 android:textSize="18sp"

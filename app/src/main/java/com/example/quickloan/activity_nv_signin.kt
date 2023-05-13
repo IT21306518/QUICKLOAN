@@ -66,7 +66,7 @@ class activity_nv_signin : AppCompatActivity() {
             firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-                        val intent = Intent(this, nv_repaymentDasboard::class.java)
+                        val intent = Intent(this, Bu_dashboard::class.java)
                         startActivity(intent)
                         finish()
                     } else {
