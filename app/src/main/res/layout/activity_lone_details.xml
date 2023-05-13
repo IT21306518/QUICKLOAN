@@ -111,7 +111,7 @@
                 android:layout_weight="1.4">
 
                 <TextView
-                    android:id="@+id/tvLonId"
+                    android:id="@+id/loanid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -161,7 +161,7 @@
                 android:layout_weight="1.4">
 
                 <TextView
-                    android:id="@+id/tvFullName"
+                    android:id="@+id/date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -215,7 +215,7 @@
                 android:layout_weight="1.4">
 
                 <TextView
-                    android:id="@+id/tvNIC"
+                    android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -269,7 +269,7 @@
                 android:layout_weight="1.4">
 
                 <TextView
-                    android:id="@+id/tvMobile"
+                    android:id="@+id/amount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -324,7 +324,7 @@
                 android:layout_weight="1.4">
 
                 <TextView
-                    android:id="@+id/tvEmail"
+                    android:id="@+id/amount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -377,7 +377,7 @@
                 android:layout_weight="1.4">
 
                 <TextView
-                    android:id="@+id/tvAddress"
+                    android:id="@+id/mobileNo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

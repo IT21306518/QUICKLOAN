@@ -70,10 +70,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginBottom="371dp"
         android:contentDescription="@string/search_elements"
         android:overScrollMode="never"
         android:scrollbars="none"
-        app:layout_constraintBottom_toTopOf="@id/ViewDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutHeader"
         tools:ignore="NotSibling">
 
@@ -91,8 +93,8 @@
                 android:orientation="vertical"
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/layoutcal"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
@@ -123,10 +125,10 @@
                 android:background="@drawable/white_rectangle_background"
                 android:gravity="center"
                 android:orientation="vertical"
-                app:layout_constraintStart_toEndOf="@+id/layoutFunction"
                 android:padding="15dp"
                 app:layout_constraintDimensionRatio="H,1:1"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/layoutFunction"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView

@@ -165,7 +165,11 @@
     <string name="user_rate">Interest Rate:</string>
     <string name="user_monthPay">Monthly Payment:</string>
     <string name="user_IDcal">User ID:</string>
+ 
+    <string name="applyLn">Apply</string>
+ 
     <string name="QuickLoan">QuickLoan</string>
+ 
 
 
     <string-array name="relativetype">

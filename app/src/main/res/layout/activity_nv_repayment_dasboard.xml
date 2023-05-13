@@ -38,7 +38,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:lineSpacingExtra="11sp"
-                        android:text="$5000"
+                        android:text="Rs.8000"
                         android:textColor="#ffffff"
                         android:textSize="35sp"
                         android:textStyle="bold" />
@@ -75,17 +75,6 @@
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="104dp"
-                        android:layout_marginTop="3dp"
-                        android:gravity="center_horizontal"
-                        android:lineSpacingExtra="5sp"
-                        android:text="Mr.user"
-                        android:textColor="#ccffffff"
-                        android:textSize="15sp"
-                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -151,7 +140,7 @@
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginLeft="12dp"
                                 android:lineSpacingExtra="7sp"
-                                android:text="$20000"
+                                android:text="Rs.20000"
                                 android:textColor="#1c1939"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -168,7 +157,7 @@
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginRight="25dp"
                                 android:lineSpacingExtra="7sp"
-                                android:text="$12000"
+                                android:text="Rs.12000"
                                 android:textColor="#1c1939"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
@@ -182,139 +171,84 @@
 
 
         </FrameLayout>
-
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="167dp"
-            android:layout_height="44dp"
-            android:layout_margin="4dp"
-
-            android:text="Repayment"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="26sp"
-            android:textStyle="bold" />
-
-
-        <androidx.cardview.widget.CardView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="136dp"
-            app:cardCornerRadius="12dp">
-
+            android:layout_height="wrap_content">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="111dp"
-                android:layout_margin="21dp"
-                android:orientation="vertical">
+                android:id="@+id/layoutFunction"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/white_rectangle_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/layoutcal"
+                app:layout_constraintTop_toTopOf="parent">
 
+                <ImageView
+                    android:id="@+id/paynowIMG"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="12dp"
-                        android:lineSpacingExtra="7sp"
-
-                        android:text="Due Amount"
-                        android:textColor="#1c1939"
-                        android:textSize="15sp" />
-
-
-                    <TextView
-                        android:layout_width="92dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="120dp"
-                        android:layout_marginRight="60dp"
-                        android:lineSpacingExtra="7sp"
-
-                        android:text="Due Date"
-                        android:textColor="#1c1939"
-                        android:textSize="15sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="32dp"
-                    android:layout_marginTop="12dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="12dp"
-                        android:lineSpacingExtra="7sp"
-
-                        android:text="$2000"
-                        android:textColor="#1c1939"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginLeft="150dp"
-                        android:layout_marginRight="30dp"
-                        android:lineSpacingExtra="7sp"
-                        android:text="08/05/2023  "
-                        android:textColor="#1c1939"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-
-                <View
-                    android:id="@+id/view5"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:padding="8dp"
+                    android:src="@drawable/pay" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/payNowimg"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="100dp"
-                    android:lineSpacingExtra="7sp"
+                    android:gravity="center"
+                    android:text="Pay now"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-                    android:text="in 03 days  "
-                    android:textColor="#1c1939"
-                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutcal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/white_rectangle_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/layoutFunction"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/manageIMG"
+                    android:layout_width="124dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+
+                    android:padding="8dp"
+                    android:src="@drawable/managge" />
+
+                <TextView
+                    android:id="@+id/managepaimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Manage recent Payments"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
 
 
-        </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <Button
-            android:id="@+id/btn_repayment"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_marginLeft="158dp"
-            android:layout_marginTop="25dp"
-            android:backgroundTint="#9B92EA"
-            android:text="Pay now" />
-
-
-        <TextView
-            android:id="@+id/textdashboard"
-            android:layout_width="166dp"
-            android:layout_height="52dp"
-            android:padding="8dp"
-            android:text="View recent payments"
-            android:textAlignment="center"
-            android:textColor="@color/purple"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
 
     </LinearLayout>
 

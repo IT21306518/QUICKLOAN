@@ -42,19 +42,7 @@
             app:layout_constraintTop_toTopOf="parent"
 
             tools:ignore="DuplicateIds" />
-        <TextView
-            android:id="@+id/textUsername"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="56dp"
-            android:text="@string/name"
-            android:textColor="@color/colorWhite"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@id/textHello"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+
 
         <ImageView
             android:id="@+id/imageMenu"
@@ -127,7 +115,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="160sp">
+                android:layout_marginTop="150sp">
 
                 <LinearLayout
                     android:id="@+id/layoutFunction"
@@ -157,7 +145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="@string/apply"
+                        android:text="@string/applyLn"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp"
                         android:textStyle="bold" />

@@ -16,9 +16,9 @@ import com.google.firebase.database.ValueEventListener
 class nv_payments : AppCompatActivity() {
 
     private lateinit var payRecyclerView: RecyclerView
-private lateinit var tvLoadingData:TextView
-private lateinit var paymentList: ArrayList<PaymentModel>
-private lateinit var dbRef:DatabaseReference
+    private lateinit var tvLoadingData:TextView
+    private lateinit var paymentList: ArrayList<PaymentModel>
+    private lateinit var dbRef:DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -60,7 +60,7 @@ private lateinit var dbRef:DatabaseReference
                             intent.putExtra("loanId",paymentList[position].LoanID)
                             intent.putExtra("date",paymentList[position].Date)
                             intent.putExtra("name",paymentList[position].CardHolderName)
-                            intent.putExtra("Amount",paymentList[position].RepaymentAmount)
+                            intent.putExtra("amount",paymentList[position].RepaymentAmount)
                             intent.putExtra("postalCode",paymentList[position].PostalCode)
                             intent.putExtra("mobileNo",paymentList[position].MobileNO)
                             startActivity(intent)
