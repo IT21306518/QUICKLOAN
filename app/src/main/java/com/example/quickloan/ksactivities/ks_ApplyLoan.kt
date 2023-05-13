@@ -22,11 +22,14 @@ class ks_ApplyLoan : AppCompatActivity() {
     private lateinit var btnsubmit: Button
 
 
+
     private lateinit var dbRef: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ks_apply_loan)
+
+
 
         fullName = findViewById(R.id.full_Name_2)
         nicNo = findViewById(R.id.nic_No_2)
@@ -38,6 +41,8 @@ class ks_ApplyLoan : AppCompatActivity() {
         btnsubmit = findViewById(R.id.submit_a)
 
         val backButton: ImageButton = findViewById(R.id.btnBack1)
+
+
 
 
         dbRef = FirebaseDatabase.getInstance().getReference("Loans")
@@ -64,6 +69,7 @@ class ks_ApplyLoan : AppCompatActivity() {
         val address = uAddress.text.toString().trim()
         val hMuch = howMuch.selectedItem.toString().trim()
         val hLong = howLong.selectedItem.toString().trim()
+
 
         // check if all fields are filled
         var isValid = true
